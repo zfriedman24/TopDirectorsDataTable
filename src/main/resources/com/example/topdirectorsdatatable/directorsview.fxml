@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.topdirectorsdatatable.DirectorsController">
+   <children>
+      <TableView fx:id="AllDirectorsView" prefHeight="400.0" prefWidth="618.0">
+        <columns>
+          <TableColumn fx:id="rank" prefWidth="58.0" text="Rank" />
+          <TableColumn fx:id="name" prefWidth="100.0" text="Name" />
+            <TableColumn fx:id="average" prefWidth="79.0" text="Average" />
+            <TableColumn fx:id="numberOfFilms" prefWidth="167.0" text="Number of Films" />
+            <TableColumn fx:id="worldwideTotal" prefWidth="213.0" text="WorldWide Total" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
